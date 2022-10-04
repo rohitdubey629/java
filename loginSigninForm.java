@@ -21,7 +21,8 @@ public class loginSigninForm extends JFrame implements ActionListener {
     JButton sb1, sb2;
     Font sf;
     JPanel sp1, sp2, sp3;
-    String su,sp,spc;
+    String su, sp, spc;
+
     loginSigninForm() {
         frm = new JFrame("Login Here");
         frm.setSize(650, 340);
@@ -203,9 +204,9 @@ public class loginSigninForm extends JFrame implements ActionListener {
             sfrm.setVisible(true);
         }
         if (e.getSource() == sb1) {
-             su = st1.getText();
-             sp = st2.getText();
-             spc = st3.getText();
+            su = st1.getText();
+            sp = st2.getText();
+            spc = st3.getText();
 
             if (sp.equals(spc) && spc.equals(sp)) {
 
