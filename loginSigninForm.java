@@ -26,7 +26,7 @@ public class loginSigninForm extends JFrame implements ActionListener {
     loginSigninForm() {
         frm = new JFrame("Login Here");
         frm.setSize(650, 340);
-        frm.setVisible(true);
+        // frm.setVisible(true);
         frm.setLocationRelativeTo(null);// set in center
         frm.setLayout(new FlowLayout()); // creat font stayle size
         f = new Font("roboto", Font.BOLD, 28);
@@ -90,6 +90,7 @@ public class loginSigninForm extends JFrame implements ActionListener {
         b1.addActionListener(this);
         b2.addActionListener(this);
         b3.addActionListener(this);
+        frm.setVisible(true);
 
         // sign In Form Structure start
 
