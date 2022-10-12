@@ -105,6 +105,10 @@ class myFrame1 extends JFrame implements ActionListener {
         c.add(msg);
         c.setBackground(Color.YELLOW);
 
+        t1.addActionListener(this);
+        t2.addActionListener(this);
+        // ta1.addActionListener(this);
+
         setVisible(true);
     }
 
@@ -127,6 +131,13 @@ class myFrame1 extends JFrame implements ActionListener {
 
             screen.setText("");
         }
+
+        String str = t1.getText();
+        t1.setText(str.toUpperCase());
+
+        String str2 = t2.getText();
+        t2.setText(str2.toUpperCase());
+
     }
 }
 

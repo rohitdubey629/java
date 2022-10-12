@@ -94,6 +94,6 @@ class myFrame extends JFrame implements ActionListener {
 
 public class simpleCalculator {
     public static void main(String args[]) {
-        myFrame frame = new myFrame();
+        myFrame Frame = new myFrame();
     }
 }
